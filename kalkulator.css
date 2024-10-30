@@ -1,0 +1,101 @@
+body{
+  background: black;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+div{
+  /* border: solid 1px red; */
+}
+
+#kalkulator{
+  border: solid 1px #ccc;
+  padding: 10px;
+  background: linear-gradient(#ccf, #88f);
+  color: black;
+  min-width: 200px;
+}
+
+.wrapper{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.wrapper div{
+  width: 100%;
+  /* background: darkblue; */
+  padding: 5px 10px
+}
+
+
+#hasil, #btn-hitung{
+  font-size: 22px;
+}
+
+#operasi-temporer{
+  font-size: 9px;
+}
+
+.bg-abu{background: #d8d8d8;}
+.bg-red{background: #c00000;}
+.bg-dark-brown{background: #4a452a;}
+.bg-brown{background: #974807;}
+.bg-dark-blue{background: #376091;}
+.bg-purple{background: #7030a0;}
+.bg-green{background: #00b050;}
+
+#judul{
+  padding: 10px 0;
+}
+
+.tombol{
+  border: solid 1px #ccc;
+  box-shadow: 0 0 3px gray;
+}
+
+.tombol-aktif{
+  cursor: pointer;
+  transition: .2s;
+}
+
+.tombol-aktif:hover{
+  background: linear-gradient(#fcf,#f0f);
+  transform: scale(1.1);
+}
+
+.tombol-nonatktif{
+  box-shadow: none !important;
+}
+
+/* Styling untuk tombol umum */
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Styling khusus untuk tombol hapus */
+.tombol-hapus {
+  width: 50%;
+  padding: 8px;
+  font-size: 18px;
+  background-color: #ff4c4c; /* Warna merah lembut */
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Tambahkan efek hover */
+.tombol-hapus:hover {
+  background-color: #ff2a2a; /* Warna lebih gelap saat dihover */
+}
+
+
+
+
